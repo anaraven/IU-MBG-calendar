@@ -1,0 +1,24 @@
+PAZARTESİ
+09.00-11.00	Klinik Biyokimya*	MAT.BÖL.D.1	PROF.DR.M.K.GÜMÜŞTAŞ	
+11.00-13.00	Klinik Biyokimya* (LAB)	MBG.I	PROF.DR.M.K.GÜMÜŞTAŞ
+13.00-14.00	Genetiği Değiştirilmiş Organizmalar ve Biyogüvenlik *	Nükleer Seminer Salonu	Prof.Dr.Ş.Ari
+14.00-15.00	Seminer	Mat.Böl.Seminer Salonu	Prof.Dr.N.Gözükirmizi
+
+SALI
+10.00-11.00	Proteomik ve Metabolomik*	A.Riza Berkem Dersh.	Prof.Dr.N.Arda-Doç.Dr.E.Onay Uçar
+12.00-16.00	Uygulamali Girişimcilik	E.Arik	Yrd.Doç.Dr.N.Turgut Kara
+
+ÇARŞAMBA
+09.00-10.00	Genetik Kaynaklar ve Koruma *	K.Erim Anfisi	Prof.Dr.F.Gürel	
+14.00-15.00	İnsan Genetiğinde Güncel Konular *	E.Arik Anfis	Doç.T.Günel
+15.00-17.00	İnsan Genetiğinde Güncel Konular *(Uyg.)	E.Arik Anfis	Doç.T.Günel
+
+PERŞEMBE
+09.00-10.00	Bitirme Projesi	Mat.Böl. Seminer Salonu	Bölüm Öğretim Üyeleri
+11.00-12.00	Maya Biyoteknolojisi *	Mat.Böl.Seminer Salonu	Yrd.Doç.Dr.S.Karaer Uzuner
+14.00-17.00	Maya Biyoteknolojisi *(Lab.)	MBG.I	Yrd.Doç.DR.S.Karaer Uzuner
+
+CUMA
+09.00-11.00	Moleküler Biyoteknoloji *	A.Riza Berkem Anfisi	Prof.Dr.F.Gürel Doç.Dr.T.Günel
+11.00-13.00	Genetiği Değiştirilmiş Organizmalar ve Biyogüvenlik*(Uyg.)	MGB.II	Prof.Dr.Ş.Ari
+13.00-17.00	Bitirme Projesi (Lab.)	MBG.II	Bölüm Öğretim Üyeleri

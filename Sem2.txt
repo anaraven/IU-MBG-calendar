@@ -1,0 +1,23 @@
+PAZARTESİ	
+10.00-12.00	Hücre Biy.Giriş	A.Yüksel Özemre Dersh.	Prof.Dr.C.Demirci Tansel, Prof.Dr.F.Gürel
+10.00-11.30	Türk Dili II	Fiz.Böl.Seminer Salonu	Okutman Y.Okay Çamlibel	
+12.00-15.00	Introduction to Cell Biology	Fizik Seminer Salonu	Prof.Dr.F.Gürel	
+15.00-17.00	Reading and Translation in Science II	F.Gürsey Anfisi	Prof.Dr.N.Arda Okutman G.Ünar	
+15.00-17.00	Yabanci Dil II	F.Gürsey Anfisi	Okutman N.Tur	
+
+SALI	
+11.00-13.00	Organik Kimya I	A.Riza Bekem.Derh.	Prof.Dr.K.Günaydin	
+14.00-17.00	Hücre Biy.Giriş (Lab.)	MBG II	Prof.Dr.C.Demirci Tansel, Prof.Dr.F.Gürel	
+16.00-17.00	Güzel Sanatlar II	Feza Gürsey Anfisi	Okutman Ö.Erol	
+17.00-19.00	Şehir ve Kültür-İstanbul	Biy.Böl.A.Şengün Anfisi	Prof.Dr.Ahmet Kala	
+	
+ÇARŞAMBA	
+10.00-11.00	Hücre Biy.Giriş	Fizik Seminer Salonu	Prof.Dr.C.Demirci Tansel, Prof.Dr.F.Gürel	
+11.00-13.00	Nükleer Seminer Salonu	Prof.Dr.N.Gözükirmizi	Doç.Dr.B.Palabiyik	
+14.30-17.30	Temel Genetik (Lab.)	MBG.II	Prof.Dr.N.Gözükirmizi, Doç.Dr.B.Palabiyik	
+17.00-19.00	Afet Kültürü*	Biy.Böl.A.Şengün Anfisi	Yrd.Doç.Dr.S.Özeszen	
+	
+PERŞEMBE	
+10.00-13.00 	Introduction to Cell Biology (Lab.) 	MBG.II  	Prof.Dr.F.Gürel 	
+13.00-14.00 	Bilgisayar II 	Bil.Lab.I(Mat.Kütüphane) 	Yrd.Doç.DR.Çiğdem Yalçin 	
+14.00-16.00 	Bilgisayar II  (UYG) 	Bil.Lab.I(Mat.Kütüphane) 	Yrd.Doç.Dr.Çiğdem Yalçin 	
