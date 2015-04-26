@@ -18,13 +18,19 @@ cal.add('prodid', '-//calendar generator//mbg.istanbul.edu.tr//')
 # ? add sequence
 # - add UID (md5?)
 
-event = Event()
-event.add('summary', 'Python meeting about calendaring')
-event.add('dtstart', datetime(2005,4,4,8,0,0))
-event.add('dtend', datetime(2005,4,4,10,0,0))
-event.add('dtstamp', datetime(2005,4,4,0,10,0))
-event.add('location', 'Odense, Denmark')
-cal.add_component(event)
+for line in file('seminars.txt','r'):
+  date, author, subject = line.strip().split("\t")
+  day, month, year = date.split(".")
+  event = Event()
+  event.add('summary', 'Seminar ' + author)
+  #description = vText(subject)
+  #event['description'] = description
+  event.add('description', subject)
+  event.add('dtstart', datetime(int(year), int(month), int(day), 13, 30, 0))
+  event.add('dtend', datetime(int(year), int(month), int(day), 14, 30, 0))
+  event.add('dtstamp', datetime.now())
+  event.add('location', 'MBG-II')
+  cal.add_component(event)
 
 
 print cal.to_ical()
