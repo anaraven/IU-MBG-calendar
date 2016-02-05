@@ -18,7 +18,7 @@ cal = Calendar()
 cal.add('version', '2.0')
 cal.add('prodid', '-//calendar generator//mbg.istanbul.edu.tr//')
 
-# TODO: 
+# TODO:
 # - parse input
 # - choose good summary
 # - add description
@@ -26,7 +26,7 @@ cal.add('prodid', '-//calendar generator//mbg.istanbul.edu.tr//')
 # ? add sequence
 # - add UID (md5?)
 
-sem = sys.argv[1]
+chosen_sem = sys.argv[1]
 
 for fname in sys.argv[2:]:
   for line in file(fname,'r'):
@@ -36,11 +36,19 @@ for fname in sys.argv[2:]:
       if cmd == 'D':
           day = arg
       elif cmd == 'S':
-          if not arg.startswith(sem):
-            continue
+          sem = arg
       elif cmd == 'H':
-        if title is not None:
-          print year, month, daynum[day], shour, smin, ehour, emin
+        start, end = arg.split('-')
+        shour,smin = start.split('.')
+        ehour,emin = end.split('.')
+      elif cmd == 'T':
+        title = arg
+      elif cmd == 'L':
+        location = arg
+      elif cmd == 'P':
+        prof.append(arg)
+    else:
+        if title is not None and sem.startswith(chosen_sem):
           event = Event()
           event.add('summary', vText(title))
           description = vText(" ".join(prof))
@@ -52,18 +60,9 @@ for fname in sys.argv[2:]:
                     int(ehour), int(emin), 0))
           event.add('dtstamp', datetime.now())
           event.add('location', vText(location))
-          event.add('rrule', {"FREQ":"WEEKLY", "COUNT":"14"})
+          event.add('rrule', {"FREQ":"WEEKLY", "INTERVAL":"1", "COUNT":"14"})
           cal.add_component(event)
-        start, end = arg.split('-')
-        shour,smin = start.split('.')
-        ehour,emin = end.split('.')
         title = None
         prof = []
-      elif cmd == 'T':
-        title = arg
-      elif cmd == 'L':
-        location = arg
-      elif cmd == 'P':
-        prof.append(arg)
 
 print cal.to_ical()
